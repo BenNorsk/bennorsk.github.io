@@ -1,0 +1,103 @@
+.navbar {
+	background-color: black;
+	color: #FFE085;
+	font-family: 'Dancing Script', cursive;
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+
+}
+
+a:hover {
+	text-decoration: none;
+	border-width: 10px;
+	background-color: rgb(40,40,40);
+	color: #FFE085;
+	font-family: 'Dancing Script', cursive;
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+
+}
+
+
+.home {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+
+
+.instagram {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.contact {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+
+
+#navgrid {
+	background-color: rgb(20,20,20);
+	display: grid;
+	width: 240px;
+	grid-template-columns: 140px 140px 140px;
+	grid-template-rows: 40px;
+	align-items: center;
+	position: absolute;
+	text-align: center;
+	justify-content: center;
+	top: 10vh;
+	right: 40vw;
+}
+
+.container {
+	height: 15vh;
+	width: 100vw;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(60,60,60);
+	position: relative;
+
+}
+
+
+.main-headers {
+	color: white;
+	font-family: "Dancing Script", cursive;
+	font-size: 70px;
+	position: absolute;
+	top: 65vh;
+	right: 22vw;
+	text-align: center;
+}
+
+#subtitle {
+	font-size: 28px;
+	top: 82vh;
+	right: 37vw;
+}
+
+.background-image {
+	z-index: 5;
+}
+
+
+
