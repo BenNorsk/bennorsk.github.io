@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>B.L. Bruckner's Virtual Home - Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/lion.png"/>
+</head>
+<body>
+  <div class="container">
+      <div id="navgrid">
+        <a href="index.html" class="navbar home">Home</a>
+        <a href="https://www.instagram.com/benjamin__bruckner/" class="navbar instagram">Instagram</a>
+        <a href="contact.html" class="navbar contact">Contact</a>
+      </div>
+    </div>
+  <div class="main">
+    <img src="images/winter.jpg" alt="background image" class="background-image">
+
+    <h1 class="main-headers">Welcome Dearest Stranger</h1>
+    <p class="main-headers" id="subtitle">to Bruckner's virtual home.</p>
+  </div>
+
+
+
+</body>
+</html>
